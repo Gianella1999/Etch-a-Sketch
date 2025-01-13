@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(88, 141, 141);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+.contenedor{
+    background-color: rgb(255, 252, 252);
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin-top: 2px;
+    height: 592px;
+    width:  592px;  
+   
+}
+#divhijo{
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*.contenedor>div:nth-child(16n + 1) {
+    width: 100%;
+    border: 0;
+    height: 0;
+  }*/
